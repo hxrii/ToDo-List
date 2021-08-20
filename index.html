@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Todo</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/a3c70be77d.js" crossorigin="anonymous"></script>
+     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    
+ </head>
+ <body>
+     <div class="wrapper">
+       <header class="header">TODO List</header>
+       <div class="inputField">
+           <input type="text" placeholder="Add new item" onfocus="this.placeholder='';" onblur="this.placeholder='Add new item'">
+          
+           <button class="button" ><i class="fa fa-plus"></i></button>
+       </div>
+     
+     <ul class="todo-list">
+         
+   
+     </ul>
+     <div class="footer">
+         <div class="total-left-border"><span class="total-left">You have <span class="pending"></span> pending tasks</span>
+         <button class="red-button" >Clear All</button></div>
+     </div>
+
+    </div>
+    <script src="script.js"></script>
+ </body>
+
+ </html>
